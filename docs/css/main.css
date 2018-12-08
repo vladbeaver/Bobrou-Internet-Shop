@@ -466,7 +466,7 @@ text-align: left}
     border-radius: 7px; }
 
 .blur {
-    filter: blur(4px) contrast(0.5) brightness(0.9);
+   
     position: fixed; }
 
 .fix {
