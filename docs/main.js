@@ -68,7 +68,7 @@
         } else {
             var t = 0,
                 a = '<p style="text-align: center;border-bottom: 1px solid #ccc;margin: 0px; padding-bottom: 4px;">C A R T</p>';
-            for (var e in a += '<div style="border-bottom: 1px solid #ccc;">', n) a += '<div id="cart-dd">', a += '<div class="cart-item">', a += '<img data-art="' + e + '" class="cross" src="../images/ok.png">', a += '<p class="good" data-art="' + e + '">' + n[e].name + "</p>", a += '<div class="quantity">', a += '<img data-art="' + e + '" class="left-img" src="../images/plus.png">', a += '<p class="cart-p">' + n[e].quantity + "</p>", a += '<img data-art="' + e + '" class="right-img" src="../images/minus.png">', a += "</div>", a += "</div>", a += "</div>", t += parseFloat(n[e].price) * n[e].quantity;
+            for (var e in a += '<div style="border-bottom: 1px solid #ccc;">', n) a += '<div id="cart-dd">', a += '<div class="cart-item">', a += '<img data-art="' + e + '" class="cross" src="./images/ok.png">', a += '<p class="good" data-art="' + e + '">' + n[e].name + "</p>", a += '<div class="quantity">', a += '<img data-art="' + e + '" class="left-img" src="./images/plus.png">', a += '<p class="cart-p">' + n[e].quantity + "</p>", a += '<img data-art="' + e + '" class="right-img" src="./images/minus.png">', a += "</div>", a += "</div>", a += "</div>", t += parseFloat(n[e].price) * n[e].quantity;
             a += "</div>", a += "<p>Sum: " + t + " UAH </p>", a += '<button class="my-button" id="checkout">SUBMIT ORDER</button>', $("#cart_menu").html(a), $("button#checkout").on("click", function () {
                 d(), function (t) {
                     $("#dialog").fadeIn(), $(".container").addClass("blur"), $("footer").addClass("fix");
